@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(128, 59, 192);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.cabecalho-logo img {
+    width: 120px;
+    height: auto;
+}
+
+.cabecalho-login img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.container-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-div1 {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(196, 157, 31);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.menu-div1:hover {
+    background-color: rgb(190, 170, 15);
+    cursor: pointer;
+}
+
+.container-rodape {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(128, 59, 192);
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #030303;
+}
