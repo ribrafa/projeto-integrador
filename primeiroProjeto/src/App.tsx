@@ -9,7 +9,7 @@ import Home from "./pages/Home"
 
 function App() {
   return (
-    <div>
+    <div className="app-pagina">
       <Routes>
       <Route path='*' element= {<NotFound />} />
       <Route path='/' element= {<Home />} />
